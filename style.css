@@ -1,0 +1,29 @@
+ /* Center the chart on the page */
+ .chart-container {
+    text-align: center;
+}
+
+/* Style for the heading */
+.chart-heading {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+ /* Define CSS styles for the tooltip */
+ .tooltip {
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+table {
+    border: 2px solid #143f17; /* Green border (adjust the width and color as needed) */
+}

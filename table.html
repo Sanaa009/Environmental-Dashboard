@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threatened Species Table</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Change the heading color */
+        .chart-heading {
+            color: #143f17;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #143f17;">
+        <a class="navbar-brand" href="#" style="color: #CDEE77;">Environmental Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: #CDEE77;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bar.html" style="color: #CDEE77;">CO2 Emissions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="scatterplot.html" style="color: #CDEE77;">Land Proportion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table.html" style="color: #CDEE77;">Endangered Species</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="line.html" style="color: #CDEE77;">Threatened specie trends</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pie.html" style="color: #CDEE77;">Carbon emissions distribution</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #143f17;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="threat_plants_map.html" style="color: #CDEE77;">Threatened Plants</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="proportional_symbol.html" style="color: #CDEE77;">CO2 Emissions Proportional symbol map</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="land_dot_map.html" style="color: #CDEE77;">Arable land map</a>
+            </li>
+                
+             
+            </ul>
+        </div>
+    </nav>
+  
+
+
+
+    <!-- Heading -->
+    <div class="chart-heading">Threatened Species Table 2022
+    </div>
+
+    <!-- Center the table on the page -->
+    <div class="container table-container" style="margin-top: 60px;">
+        <table id="species-table" class="table table-bordered">
+            <!-- Table header will be generated dynamically using D3.js -->
+            <thead>
+                <tr>
+                    <!-- Column headers will be generated dynamically using D3.js -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be generated dynamically using D3.js -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="table.js"></script>
+
+    <div id="legend-container"></div>
+</body>
+</html>

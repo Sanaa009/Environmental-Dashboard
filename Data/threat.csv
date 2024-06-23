@@ -1,0 +1,36 @@
+Countries_Region,Year,Threatened Species: Invertebrates (number),Threatened Species: Plants (number),Threatened Species: Total (number),Threatened Species: Vertebrates (number)
+Australia,2004,283,56,621,282
+Australia,2010,489,67,853,297
+Australia,2015,514,91,909,304
+Australia,2019,545,108,"1,016",363
+Australia,2020,548,327,"1,308",433
+Australia,2021,556,760,"1,773",457
+Australia,2022,592,779,"1,828",457
+China,2004,4,443,773,326
+China,2010,32,453,859,374
+China,2015,76,544,"1,040",420
+China,2019,79,604,"1,124",441
+China,2020,84,637,"1,172",451
+China,2021,85,679,"1,308",544
+China,2022,86,686,"1,346",574
+India,2004,23,246,552,283
+India,2010,113,255,758,390
+India,2015,135,384,"1,039",520
+India,2019,136,399,"1,081",546
+India,2020,138,430,"1,118",550
+India,2021,139,460,"1,193",594
+India,2022,140,485,"1,286",661
+Norway,2004,9,2,33,22
+Norway,2010,7,2,36,27
+Norway,2015,10,4,44,30
+Norway,2019,10,51,104,43
+Norway,2020,10,61,115,44
+Norway,2021,9,62,118,47
+Norway,2022,15,68,134,51
+United States of America,2004,561,240,"1,143",342
+United States of America,2010,531,245,"1,152",376
+United States of America,2015,575,280,"1,299",444
+United States of America,2019,581,556,"1,616",479
+United States of America,2020,586,587,"1,655",482
+United States of America,2021,600,735,"1,841",506
+United States of America,2022,624,751,"1,877",502
